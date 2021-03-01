@@ -1,0 +1,25 @@
+{
+  "name": "power",
+  "version": "1.0.0",
+  "summary":"power",
+  "description":"test the syncpack function",
+  "author":"Wian Crous",
+  "home_page":"https://github.com/wianC/power",
+  "requires_dist":["http.client","requests","decimal","ssl","mysql.connector","pymongo","datetime","calendar","json"],
+  "schedules": [
+    {
+      "application_id": "dummy_app",
+      "entry_id": "dummy app",
+        "params": {},
+        "schedule": {
+            "schedule_info": {
+                "run_every": 3600
+            },
+            "schedule_type": "frequency"
+        }
+    }
+  ],
+  "tags":["power"],
+  "critical": [],
+  "requires_is_version": "1.0.0"
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Dummy Application as example",
+  "author": "Wian Crous",
+  "app_variables": [],
+  "friendly_name": "Dummy App",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "name": "ds1",
+      "file": "DummyStep"
+    }
+  ]
+}
